@@ -1,0 +1,8 @@
+nfs:
+  server: nfs-server
+persistence:
+  enabled: true
+  size: 10Gi
+storageClass:
+  name: nfs-client
+  defaultClass: false
